@@ -21,6 +21,7 @@ html, body{
 a{
     position: absolute;
     left:30%;
+    top: 92%;
 }
 
 .card-body , .card-footer, .card-header{
@@ -29,6 +30,10 @@ a{
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+
+.card-body{
+    margin-top: 10px;
 }
 
 .campos{
@@ -50,6 +55,7 @@ a{
     border-radius: 7px;
     border: 2px dashed rgb(77, 161, 240);
     margin: auto;
+    padding-top: 40px;
 }
 
 .img-f{
@@ -64,6 +70,7 @@ a{
     top:50%;
     width: 300px;
     padding: 20px;
+    border-radius: 10px;
     box-shadow: 2px 1px 2px 2px rgb(156, 156, 156);
     margin: auto;  
 }
@@ -74,8 +81,9 @@ input{
     border-radius: 8px;
 }
 
-p{
+.apply{
     color: grey;
+    padding-top: 30px;
 }
 
 
