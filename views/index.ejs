@@ -1,0 +1,30 @@
+<%-include('template/header', {tituloWeb: 'Uploading images'});%>
+<div class= 'cards'>
+  <div class="card-header">
+    <h4>Upload your images</h4>
+    <h7>File should be Jpeg, png ...</h7>
+  </div>
+  <div class="card-body">
+    <div class='grey w-50'>
+      <div>
+        <img class="w-100 complete"  src="../public/image.svg" alt="Default">
+      </div>
+      <p>Drag & drop your image here</p>
+    </div>
+    <p>Or</p>
+  </div>
+  <div class="card-footer">
+    <form action="file/upload" enctype="multipart/form-data" method="POST">
+      <input id="fileupload" name="image" type="file" class="inp" />
+      <button
+                  class="btn btn-primary choose"
+                  type="button"
+              >
+             
+                  Choose a file
+              </button>
+    </form>
+  </div>
+</div>
+<script src="../public/app.js" ></script>
+<%-include('template/footer');%>

@@ -1,0 +1,99 @@
+html, body{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cards{
+    position: absolute;
+    top:25%;
+    width: 402px;
+    height: 469px;
+    box-shadow: 2px 1px 2px 2px rgb(156, 156, 156);
+    margin:auto;
+    border-radius: 10px;
+}
+
+a{
+    position: absolute;
+    left:30%;
+}
+
+.card-body , .card-footer, .card-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.campos{
+    display: flex;
+    flex-direction: row;
+    margin: 13px;
+    justify-content: space-around;
+}
+
+.grey{
+    background-color: rgb(245, 245, 245);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 300px;
+    height: 223px;
+    border-radius: 7px;
+    border: 2px dashed rgb(77, 161, 240);
+    margin: auto;
+}
+
+.img-f{
+    width: 300px;
+    height: 223px;
+
+
+}
+
+.loading{
+    position: absolute;
+    top:50%;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 2px 1px 2px 2px rgb(156, 156, 156);
+    margin: auto;  
+}
+
+input{
+    background-color: rgb(221, 221, 221);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+p{
+    color: grey;
+}
+
+
+
+img{
+    background-color: white;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+
+button:active{
+    opacity: 50%;
+}
+
+
+
+input[type='file'], .no-d{
+    display: none;
+  }

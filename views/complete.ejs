@@ -1,0 +1,28 @@
+<%-include('template/header', {tituloWeb: 'Uploading images'});%>
+<div class= 'cards'>
+  <div class="card-header">
+    <span class="material-icons" style="font-size:48px;color:green;">
+        check_circle
+        </span>
+    <h4>Uploaded succesfully!</h4>
+  </div>
+  <div class="card-body">
+    <div class='img-f'>
+        <img class="w-100 complete" src="../public/image.svg" alt="Default">
+    </div>
+  </div>
+  <div class="card-footer campos">
+     <input type="text" value="" readonly='true'/>
+     
+    <button
+                class="btn btn-primary"
+                type="button"
+            >
+                Copy link
+            </button>
+  </div>
+  <a href= "/">Upload another image</a>
+</div>
+  <script src="../public/complete.js" ></script>
+
+<%-include('template/footer');%>
