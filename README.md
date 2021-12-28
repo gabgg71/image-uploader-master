@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://image-uploadermaster.herokuapp.com/ ">
       Demo
     </a>
     <span> | </span>
@@ -50,9 +50,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [Javascript](https://reactjs.org/)
-- [Node.js](https://vuejs.org/)
-- [Bootstrap](https://tailwindcss.com/)
+- [Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+- [Node.js](https://nodejs.org/es/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Features
 
@@ -68,13 +68,16 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/gabgg71/image-uploader-master
 
 # Install dependencies
 $ npm install
 
 # Run the app
 $ npm start
+
+#or with nodemon
+$ npm run dev
 ```
 
 ## Acknowledgements
@@ -85,8 +88,4 @@ $ npm start
 - [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 
-## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
