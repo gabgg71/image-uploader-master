@@ -24,7 +24,6 @@ divGrey.addEventListener('dragenter', (e)=>{
 
 });
 
-//debemos poner esto para que me permita soltar dentro del contenedor
 divGrey.addEventListener('dragover', (e)=>{
     e.stopPropagation();
     e.preventDefault();
