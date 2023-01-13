@@ -21,7 +21,7 @@ html, body{
 a{
     position: absolute;
     left:30%;
-    top: 92%;
+    top: 92% !important;
 }
 
 .card-body , .card-footer, .card-header{
@@ -39,7 +39,6 @@ a{
 .campos{
     display: flex;
     flex-direction: row;
-    margin: 13px;
     justify-content: space-around;
 }
 

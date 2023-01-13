@@ -1,7 +1,7 @@
 window.addEventListener('load', ()=>{
     setTimeout(()=>{
         localStorage.setItem('link', document.querySelector('.no-d').textContent)
-        window.location.replace("https://image-uploadermaster.herokuapp.com/complete");
+        window.location.replace(`${window.location.origin}/complete`);
     }, 2000);
 })
 

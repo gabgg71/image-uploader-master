@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://image-uploadermaster.herokuapp.com/ ">
+    <a href="">
       Demo
     </a>
     <span> | </span>
@@ -40,7 +40,7 @@
 
 
 - Where can I see your demo?
-At https://image-uploadermaster.herokuapp.com/
+At 
 
 
 ### Built With
