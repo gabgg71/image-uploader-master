@@ -8,9 +8,11 @@ window.addEventListener('load', ()=>{
     link.value = localStorage.getItem('link');
 })
 
+
 copy.addEventListener('click', ()=>{
     console.log('Diste click');
     link.select();
-    document.execCommand('copy');
+    navigator.clipboard.writeText(link.value)
+    //document.execCommand('copy');
     console.log('Lo hice');
 })
